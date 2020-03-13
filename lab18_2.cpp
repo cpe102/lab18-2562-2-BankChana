@@ -1,4 +1,3 @@
-//Modify function overlap() form lab18_1.cpp by using pointers as input arguments.
 #include<iostream>
 #include<cmath>
 using namespace std;
@@ -9,7 +8,7 @@ struct Rect{
 
 double overlap(Rect *A,Rect *B)
 	  {
-	   double x1=max(A->x,B->x);
+       double x1=max(A->x,B->x);
 	   double x2=min(A->x+A->w,B->x+B->w);
 	   double x =x2-x1;
 
